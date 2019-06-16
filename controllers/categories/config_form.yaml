@@ -1,0 +1,10 @@
+name: Categories
+form: $/frater260/simpleblog/models/category/fields.yaml
+modelClass: Frater260\SimpleBlog\Models\Category
+defaultRedirect: frater260/simpleblog/categories
+create:
+    redirect: 'frater260/simpleblog/categories/update/:id'
+    redirectClose: frater260/simpleblog/categories
+update:
+    redirect: frater260/simpleblog/categories
+    redirectClose: frater260/simpleblog/categories

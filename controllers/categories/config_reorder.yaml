@@ -1,0 +1,5 @@
+title: Categories
+modelClass: Frater260\SimpleBlog\Models\Category
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

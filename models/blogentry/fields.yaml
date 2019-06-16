@@ -1,0 +1,33 @@
+fields:
+    title:
+        label: 'frater260.simpleblog::lang.labels.entry.title'
+        span: full
+        default: Untitled
+        type: text
+    category:
+        label: 'frater260.simpleblog::lang.labels.entry.category'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    tags:
+        label: 'frater260.simpleblog::lang.labels.entry.tags'
+        mode: relation
+        separator: comma
+        customTags: true
+        nameFrom: name
+        useKey: false
+        span: auto
+        type: taglist
+    summary:
+        label: 'frater260.simpleblog::lang.labels.entry.summary'
+        size: tiny
+        span: full
+        defaultFrom: entry_text
+        type: textarea
+        comment: 'frater260.simpleblog::lang.comments.entry.summary'
+    text:
+        label: 'frater260.simpleblog::lang.labels.entry.text'
+        size: giant
+        span: full
+        type: textarea

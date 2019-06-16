@@ -1,0 +1,13 @@
+fields:
+    name:
+        label: 'frater260.simpleblog::lang.labels.category.name'
+        span: auto
+        required: 1
+        type: text
+        commentAbove: 'frater260.simpleblog::lang.comments.category.name'
+    sort_order:
+        label: 'frater260.simpleblog::lang.labels.category.order'
+        span: auto
+        default: '0'
+        type: number
+        commentAbove: 'frater260.simpleblog::lang.comments.category.order'

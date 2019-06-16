@@ -1,0 +1,44 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table frater260_simpleblog_category'
+    - builder_table_create_frater260_simpleblog_category.php
+1.0.3:
+    - 'Created table frater260_simpleblog_entry'
+    - builder_table_create_frater260_simpleblog_entry.php
+1.0.4:
+    - 'Created table frater260_simpleblog_tags'
+    - builder_table_create_frater260_simpleblog_tags.php
+1.0.5:
+    - 'Created table frater260_simpleblog_entry_tag'
+    - builder_table_create_frater260_simpleblog_entry_tag.php
+1.0.6:
+    - 'Updated table frater260_simpleblog_category'
+    - builder_table_update_frater260_simpleblog_category.php
+1.0.7:
+    - 'Updated table frater260_simpleblog_tags'
+    - builder_table_update_frater260_simpleblog_tag.php
+1.0.8:
+    - 'Updated table frater260_simpleblog_category'
+    - builder_table_update_frater260_simpleblog_category_2.php
+1.0.9:
+    - 'Updated table frater260_simpleblog_category'
+    - builder_table_update_frater260_simpleblog_category_3.php
+1.0.10:
+    - 'Updated table frater260_simpleblog_entry'
+    - builder_table_update_frater260_simpleblog_entry.php
+1.0.11:
+    - 'Updated table frater260_simpleblog_tag'
+    - builder_table_update_frater260_simpleblog_tag_2.php
+1.0.12:
+    - 'Updated table frater260_simpleblog_category'
+    - builder_table_update_frater260_simpleblog_category_4.php
+1.0.13:
+    - 'Updated table frater260_simpleblog_entry'
+    - builder_table_update_frater260_simpleblog_entry_2.php
+1.0.14:
+    - 'Updated table frater260_simpleblog_entry_tag'
+    - builder_table_update_frater260_simpleblog_entry_tag.php
+1.0.15:
+    - 'Updated table frater260_simpleblog_entry_tag'
+    - builder_table_update_frater260_simpleblog_entry_tag_2.php

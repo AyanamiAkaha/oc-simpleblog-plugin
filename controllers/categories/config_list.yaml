@@ -1,0 +1,12 @@
+title: Categories
+modelClass: Frater260\SimpleBlog\Models\Category
+list: $/frater260/simpleblog/models/category/columns.yaml
+recordUrl: 'frater260/simpleblog/categories/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

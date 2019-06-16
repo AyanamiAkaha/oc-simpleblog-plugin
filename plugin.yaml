@@ -1,0 +1,24 @@
+plugin:
+    name: 'frater260.simpleblog::lang.plugin.name'
+    description: 'frater260.simpleblog::lang.plugin.description'
+    author: 'Ayanami Akaha'
+    icon: oc-icon-edit
+    homepage: ''
+navigation:
+    simpleblog:
+        label: 'frater260.simpleblog::lang.plugin.name'
+        url: frater260/simpleblog/blogentries
+        icon: icon-edit
+        sideMenu:
+            entries:
+                label: 'frater260.simpleblog::lang.menu.entries'
+                url: frater260/simpleblog/blogentries
+                icon: icon-edit
+            categories:
+                label: 'frater260.simpleblog::lang.menu.categories'
+                url: frater260/simpleblog/categories
+                icon: icon-bookmark
+            tags:
+                label: 'frater260.simpleblog::lang.menu.tags'
+                url: frater260/simpleblog/tags
+                icon: icon-tags

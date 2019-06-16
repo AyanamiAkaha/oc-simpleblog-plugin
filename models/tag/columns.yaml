@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: 'frater260.simpleblog::lang.labels.tag.id'
+        type: number
+        sortable: true
+    name:
+        label: 'frater260.simpleblog::lang.labels.tag.name'
+        type: text
+        searchable: true
+        sortable: true

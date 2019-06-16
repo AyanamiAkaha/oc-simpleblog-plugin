@@ -1,0 +1,6 @@
+fields:
+    name:
+        label: 'frater260.simpleblog::lang.labels.tag.name'
+        span: auto
+        required: 1
+        type: text

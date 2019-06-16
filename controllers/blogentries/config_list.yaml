@@ -1,0 +1,12 @@
+list: $/frater260/simpleblog/models/blogentry/columns.yaml
+modelClass: Frater260\SimpleBlog\Models\BlogEntry
+title: BlogEntries
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'frater260/simpleblog/blogentries/update/:id'

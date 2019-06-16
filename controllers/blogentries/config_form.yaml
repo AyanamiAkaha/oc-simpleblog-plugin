@@ -1,0 +1,11 @@
+name: BlogEntries
+modelClass: Frater260\SimpleBlog\Models\BlogEntry
+form: $/frater260/simpleblog/models/blogentry/fields.yaml
+defaultRedirect: frater260/simpleblog/blogentries
+create:
+    redirect: 'frater260/simpleblog/blogentries/update/:id'
+    redirectClose: frater260/simpleblog/blogentries
+update:
+    redirect: frater260/simpleblog/blogentries
+    redirectClose: frater260/simpleblog/blogentries
+preview: {  }
