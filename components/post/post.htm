@@ -1,0 +1,13 @@
+<article id="simpleblog-post-{{ blogentry.id }}" class="post">
+	<h3 class="post-title">{{ blogentry.title }}</h3>
+	{% if(__SELF__.property('withCategory')) %}
+	<h4>{{ blogentry.category }}</h4>
+	{% endif %}
+	{{ blogentry.text }}
+	<p class="post-footer">
+	{% if(__SELF__.property('withAuthor')) %}
+	{{ blogentry.author }}, 
+	{% endif %}
+	{{ blogentry.created_at }}
+	</p>
+</article>

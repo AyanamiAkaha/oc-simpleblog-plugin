@@ -21,3 +21,12 @@ columns:
         sortable: true
         select: name
         relation: category
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

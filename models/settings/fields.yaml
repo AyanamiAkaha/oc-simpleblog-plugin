@@ -1,0 +1,25 @@
+fields:
+    author:
+        label: 'frater260.simpleblog::lang.settings.fields.author'
+        span: auto
+        type: text
+    with_author:
+        label: 'frater260.simpleblog::lang.labels.settings.withAuthor'
+        span: left
+        default: 1
+        dependsOn:
+            - author
+        type: switch
+        comment: 'frater260.simpleblog::lang.comments.settings.withAuhtor'
+    with_category:
+        label: 'frater260.simpleblog::lang.labels.settings.with_category'
+        span: auto
+        default: 1
+        type: switch
+        comment: 'frater260.simpleblog::lang.comments.settings.withCategory'
+    url_parameter:
+        label: 'frater260.simpleblog::lang.labels.settings.urlParameter'
+        span: auto
+        default: post_id
+        type: text
+        comment: 'frater260.simpleblog::lang.comments.settings.urlParameter'
